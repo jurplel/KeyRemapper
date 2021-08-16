@@ -13,6 +13,7 @@
 		0E83E17226CB1E000070C0EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E83E17026CB1E000070C0EF /* Main.storyboard */; };
 		0E83E17E26CB1E000070C0EF /* KeyRemapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83E17D26CB1E000070C0EF /* KeyRemapperTests.swift */; };
 		0E83E18926CB1E000070C0EF /* KeyRemapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83E18826CB1E000070C0EF /* KeyRemapperUITests.swift */; };
+		0E83E19726CB20980070C0EF /* hid.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E83E19626CB20980070C0EF /* hid.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		0E83E18426CB1E000070C0EF /* KeyRemapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyRemapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E83E18826CB1E000070C0EF /* KeyRemapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyRemapperUITests.swift; sourceTree = "<group>"; };
 		0E83E18A26CB1E000070C0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E83E19626CB20980070C0EF /* hid.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = hid.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				0E83E16C26CB1DFE0070C0EF /* ViewController.swift */,
 				0E83E16E26CB1E000070C0EF /* Assets.xcassets */,
 				0E83E17026CB1E000070C0EF /* Main.storyboard */,
+				0E83E19626CB20980070C0EF /* hid.plist */,
 				0E83E17326CB1E000070C0EF /* Info.plist */,
 				0E83E17426CB1E000070C0EF /* KeyRemapper.entitlements */,
 			);
@@ -228,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E83E16F26CB1E000070C0EF /* Assets.xcassets in Resources */,
+				0E83E19726CB20980070C0EF /* hid.plist in Resources */,
 				0E83E17226CB1E000070C0EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
